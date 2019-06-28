@@ -78,7 +78,7 @@ public function language($lang)
 ```
 - OR
 ````php
-{{ __('messages.welcome') }}
+{{ __('home.welcome') }}
 ````
 - OR
 ```
