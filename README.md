@@ -1,6 +1,6 @@
 # Laravel 5.5 Localization
 
-### Step 01. Create a middleware Language
+### Step 01. Create a middleware "Language"
  >php artisan make:middleware Language
 
 Update the code that is present with the one below :
@@ -20,7 +20,7 @@ public function handle($request, Closure $next)
     }
 ```
 
-### Step 02. We need to register this class in Kernel.php
+### Step 02. We need to register this class in "Kernel.php"
 
 ```php
 protected $middlewareGroups = [
