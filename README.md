@@ -68,7 +68,7 @@ public function language($lang)
 
 ### Step 05. And finally prepare the View
 - Create two anchor link, first one for **English** and second one for **Bangla**
-```html
+```php
 <a href="{{ url('lang', 'en') }}">@lang('home.english')</a>
 <a href="{{ url('lang', 'bn') }}">@lang('home.bangla')</a>
 ```
@@ -81,7 +81,7 @@ public function language($lang)
 {{ __('home.welcome') }}
 ````
 - OR
-```
+```php
 if(Session::get('locale') == 'bn')
     // ...
 @endif
